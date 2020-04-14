@@ -1,4 +1,4 @@
-package io.pivotal.pal.tracker.backlog;
+/*package io.pivotal.pal.tracker.backlog;
 
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Configuration;
@@ -19,4 +19,4 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .csrf().disable();
     }
 
-}
+}*/
