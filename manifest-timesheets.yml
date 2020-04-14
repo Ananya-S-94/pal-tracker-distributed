@@ -8,7 +8,7 @@ applications:
   env:
     #REGISTRATION_SERVER_ENDPOINT: http://registration-pal-jegan.cfapps.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
-    GRANT_TYPES: client_credentials
+    GRANT_TYPE: client_credentials
   services:
   - tracker-timesheets-database
   - tracker-service-registry
