@@ -2,11 +2,10 @@ applications:
 - name: tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal-jegan.cfapps.io
+  - route: registration-pal-ananya.cfapps.io
   memory: 1G
   instances: 1
   env:
-    #REGISTRATION_SERVER_ENDPOINT: http://registration-pal-jegan.cfapps.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
     GRANT_TYPE: client_credentials
   services:
